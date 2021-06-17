@@ -19,7 +19,7 @@ $conn = mysqli_connect('localhost','root','','login');
    $result = mysqli_query($conn, $query);
     
     if (!$result) {
-     die("SomtihmaJSKJSD");
+     die("Failed! try again");
     }
 
 
